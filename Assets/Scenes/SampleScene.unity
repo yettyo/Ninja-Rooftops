@@ -187,8 +187,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274488047}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.22189744, y: 0, z: 0, w: 0.97507}
-  m_LocalPosition: {x: 0, y: 3.4, z: -5}
+  m_LocalRotation: {x: 0.22189744, y: 0, z: 0, w: 0.97507006}
+  m_LocalPosition: {x: 0, y: 12.4, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -641,6 +641,7 @@ GameObject:
   - component: {fileID: 1126956570}
   - component: {fileID: 1126956569}
   - component: {fileID: 1126956568}
+  - component: {fileID: 1126956571}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -728,7 +729,7 @@ Transform:
   m_GameObject: {fileID: 1126956563}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -746,7 +747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9c7caf876487e344b7323aa394e3711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 10
+  jumpForce: 8
   slideDuration: 1
   slideHeight: 0.5
   originalHeight: 2
@@ -791,7 +792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   updateMode: 1
   startPercent: 0
-  startDistance: 5
+  startDistance: 0
   startMode: 0
   followSpeed: 10
   follow: 1
@@ -851,6 +852,18 @@ MonoBehaviour:
     m_RotationOrder: 4
   laneVector: {x: 1, y: 0}
   _lane: 2
+--- !u!75 &1126956571
+ConstantForce:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126956563}
+  m_Enabled: 0
+  m_Force: {x: 0, y: -30, z: 0}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &1326284770 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d0c7e925222f9924fb23d364e782920c,
@@ -1179,8 +1192,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982252321}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.22189744, y: 0, z: 0, w: 0.97507}
-  m_LocalPosition: {x: 0, y: 3.4, z: -5}
+  m_LocalRotation: {x: 0.22189744, y: 0, z: 0, w: 0.97507006}
+  m_LocalPosition: {x: 0, y: 12.4, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

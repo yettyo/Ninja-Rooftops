@@ -103,5 +103,11 @@ public class PlayerMovement : MonoBehaviour
         {
             isGrounded = true;
         }
+
+        if(collision.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("Game Over!");
+            runner.follow = false;
+        }
      }
 }
