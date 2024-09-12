@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 {
     LaneRunner runner;
     Rigidbody rb;
+    LevelManager levelManager;
     public float jumpForce = 10f;
     public float slideDuration = 1f;
     public float slideHeight = 0.5f;
@@ -17,6 +18,10 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isSliding = false;
     private bool isGrounded = true;
+
+    private void Awake() {
+        levelManager = FindObjectOfType<LevelManager>();
+    }
     void Start()
     {
         runner = GetComponent<LaneRunner>();
@@ -109,6 +114,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("Game Over!");
             runner.follow = false;
+            levelManager.LoadGameOver();
         }
      }
 }
