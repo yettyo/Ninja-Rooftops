@@ -23,7 +23,14 @@ MonoBehaviour:
       segments:
       - nested: 0
         randomPickChance: 1
-        _prefab: {fileID: 6864092338827402531, guid: 748c7aa70ef82ef44b66c9fe3de0d609,
+        _prefab: {fileID: 3191166328961802598, guid: 971e5764d4925ff45bbd667787906dda,
+          type: 3}
+        _segmentPool: []
+        _pool: 0
+        _poolParent: {fileID: 0}
+      - nested: 0
+        randomPickChance: 1
+        _prefab: {fileID: 3191166328961802598, guid: 971e5764d4925ff45bbd667787906dda,
           type: 3}
         _segmentPool: []
         _pool: 0
@@ -41,7 +48,14 @@ MonoBehaviour:
       segments:
       - nested: 0
         randomPickChance: 1
-        _prefab: {fileID: 1257008720215054305, guid: 6cd6b93562a8d0d4fbe43b6134c039db,
+        _prefab: {fileID: 6946433300137819755, guid: d4bdd70089b87db4097353d98db7c4ed,
+          type: 3}
+        _segmentPool: []
+        _pool: 0
+        _poolParent: {fileID: 0}
+      - nested: 0
+        randomPickChance: 1
+        _prefab: {fileID: 6946433300137819755, guid: d4bdd70089b87db4097353d98db7c4ed,
           type: 3}
         _segmentPool: []
         _pool: 0
@@ -59,7 +73,14 @@ MonoBehaviour:
       segments:
       - nested: 0
         randomPickChance: 1
-        _prefab: {fileID: 7098701280979101181, guid: 5161219aa59a0cf49aa81514fa6a8ff9,
+        _prefab: {fileID: 1351878781440016611, guid: 320e5cf5df4e9a94db81e89b1cb4ed7b,
+          type: 3}
+        _segmentPool: []
+        _pool: 0
+        _poolParent: {fileID: 0}
+      - nested: 0
+        randomPickChance: 1
+        _prefab: {fileID: 1351878781440016611, guid: 320e5cf5df4e9a94db81e89b1cb4ed7b,
           type: 3}
         _segmentPool: []
         _pool: 0
@@ -85,7 +106,14 @@ MonoBehaviour:
       segments:
       - nested: 0
         randomPickChance: 1
-        _prefab: {fileID: 6864092338827402531, guid: 748c7aa70ef82ef44b66c9fe3de0d609,
+        _prefab: {fileID: 3191166328961802598, guid: 971e5764d4925ff45bbd667787906dda,
+          type: 3}
+        _segmentPool: []
+        _pool: 0
+        _poolParent: {fileID: 0}
+      - nested: 0
+        randomPickChance: 1
+        _prefab: {fileID: 3191166328961802598, guid: 971e5764d4925ff45bbd667787906dda,
           type: 3}
         _segmentPool: []
         _pool: 0
@@ -103,7 +131,14 @@ MonoBehaviour:
       segments:
       - nested: 0
         randomPickChance: 1
-        _prefab: {fileID: 1257008720215054305, guid: 6cd6b93562a8d0d4fbe43b6134c039db,
+        _prefab: {fileID: 6946433300137819755, guid: d4bdd70089b87db4097353d98db7c4ed,
+          type: 3}
+        _segmentPool: []
+        _pool: 0
+        _poolParent: {fileID: 0}
+      - nested: 0
+        randomPickChance: 1
+        _prefab: {fileID: 6946433300137819755, guid: d4bdd70089b87db4097353d98db7c4ed,
           type: 3}
         _segmentPool: []
         _pool: 0
@@ -121,7 +156,14 @@ MonoBehaviour:
       segments:
       - nested: 0
         randomPickChance: 1
-        _prefab: {fileID: 7098701280979101181, guid: 5161219aa59a0cf49aa81514fa6a8ff9,
+        _prefab: {fileID: 1351878781440016611, guid: 320e5cf5df4e9a94db81e89b1cb4ed7b,
+          type: 3}
+        _segmentPool: []
+        _pool: 0
+        _poolParent: {fileID: 0}
+      - nested: 0
+        randomPickChance: 1
+        _prefab: {fileID: 1351878781440016611, guid: 320e5cf5df4e9a94db81e89b1cb4ed7b,
           type: 3}
         _segmentPool: []
         _pool: 0

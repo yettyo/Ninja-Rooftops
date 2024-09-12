@@ -102,6 +102,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+            Debug.Log("Landed!");
         }
 
         if(collision.gameObject.CompareTag("Obstacle"))
